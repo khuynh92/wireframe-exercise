@@ -1,0 +1,102 @@
+body {
+  width: 100%;
+  font-family: Helvetica;
+}
+
+header {
+  height: 100px;
+  overflow: auto;
+  background-color: rgb(56, 55, 55);
+}
+
+nav {
+  width: 960px;
+  margin: auto;
+}
+
+nav img {
+  float: left;
+  margin-top: 15px;
+  margin-right: 40px;
+}
+
+nav ul li {
+  color: lightgrey;
+  padding-top: 40px;
+  padding-right: 80px;
+  display: inline-block;
+}
+
+#large {
+  display: block;
+  margin: 30px auto 0px auto;
+}
+
+#rowOne {
+  margin: 30px auto 0px auto;
+  width: 960px;
+  overflow: auto;
+}
+
+#rowOne img {
+  float: left;
+  margin-right: 30px;
+}
+
+#rowOne :last-child {
+  margin-right: 0px;
+}
+
+#rowTwo {
+  width: 960px;
+  margin: 30px auto 0px auto;
+  overflow: auto;
+}
+
+#rowTwo img {
+  float: left;
+  margin-right: 30px;
+}
+
+#rowTwo h2, #rowTwo p {
+  margin-bottom: 30px;
+}
+
+#rowTwo p {
+  height: 270px;
+  overflow: auto;
+}
+
+#rowTwo h2 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;  
+  color: lightgray;
+  transition: 350ms;
+}
+
+a:hover {
+  color: darkgray;
+}
+
+footer {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(56, 55, 55);
+}
+
+button {
+  border: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  transition: 350ms;
+}
+
+button:hover {
+  background: lightblue;
+}
